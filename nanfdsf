@@ -1,0 +1,4 @@
+python trainer.py --ps_hosts=10.2.86.78:2226 --worker_hosts=10.2.86.78:2227,10.2.86.78:2228,10.16.49.143:9009 --job_name=ps --task_index=0
+python trainer.py --ps_hosts=10.2.86.78:2226 --worker_hosts=10.2.86.78:2227,10.2.86.78:2228,10.16.49.143:9009 --job_name=worker --task_index=0
+python trainer.py --ps_hosts=10.2.86.78:2226 --worker_hosts=10.2.86.78:2227,10.2.86.78:2228,10.16.49.143:9009 --job_name=worker --task_index=1
+python trainer.py --ps_hosts=10.2.86.78:2226 --worker_hosts=10.2.86.78:2227,10.2.86.78:2228,10.16.49.143:9009 --job_name=worker --task_index=2
